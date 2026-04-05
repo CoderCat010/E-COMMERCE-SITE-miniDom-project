@@ -1,0 +1,76 @@
+body{
+    background-color: gray;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.products-container{
+    background-color: white;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px 80px;
+    border-radius: 20px;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: fit-content;
+    width: 100%;
+    gap: 60px;
+}
+
+.card-content{
+    background-color: rgb(231, 231, 231);
+    padding: 0 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.card-content p{
+    color: rgba(39, 39, 39, 0.918);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.card-content button{
+    background-color: forestgreen;
+    border: none;
+    padding: 11px 20px;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    margin: 0 0 30px 0;
+}
+
+.carts-container{
+    text-align: left;
+    padding: 30px 0;
+}
+
+.carts-container h1{
+ text-align: center;
+}
+
+.shopping-carts-content{
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+    padding: 20px 30px;
+}
+
+.shopping-carts-content p{
+    font-weight: 600;
+}
+
+.shopping-carts-content button{
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    border: none;
+    color: white
+}
